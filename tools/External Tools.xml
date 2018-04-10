@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="atlas-debug" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\Softwares\BitBucket\INSTALL_DATA\atlassian-plugin-sdk-6.3.10\bin\atlas-debug.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="D:/Vignesh/repo/bitbucket/check-jira-issue-type" />
+    </exec>
+  </tool>
+  <tool name="QuickReload" description="Automatic plugin reinstallation with QuickReload" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\Softwares\BitBucket\INSTALL_DATA\atlassian-plugin-sdk-6.3.10\bin\atlas-mvn.bat" />
+      <option name="PARAMETERS" value="package" />
+      <option name="WORKING_DIRECTORY" value="D:/Vignesh/repo/bitbucket/check-jira-issue-type" />
+    </exec>
+  </tool>
+</toolSet>
